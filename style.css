@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(147, 195, 235); 
+
+}
+.clothing{
+    color: brown;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 50px;
+    font-style: italic;
+}
+.i{
+    position: absolute;
+    top: 10px;
+    right: 300px;
+}
+.cloth{
+    color: rgb(33, 58, 61);
+    font-style: italic;
+    font-size: 20px;
+}
