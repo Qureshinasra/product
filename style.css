@@ -20,9 +20,18 @@ body{
     font-size: 20px;
 }
 .exit{
-    border: 1px solid red;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px 10px;
+    height: 250;
+    width: 180;
+    color: bisque;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.text{
+    color: bisque;
+    text-align: center;
+    border-radius: 20px;
     
-    
-
-
 }
