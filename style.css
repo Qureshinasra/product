@@ -39,18 +39,18 @@ body{
 @media only screen and (min-width:600) {
     .exit{
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto;
         grid-gap: 150px 150px;
-        max-width: 600px;
+        min-width: 600px;
         padding: 30px;
     }
 }
-@media only screen and (max-wdth:600) {
+@media only screen and (max-width:600) {
     .exit{
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto;
         grid-gap: 150px 150px;
-        max-width: 600px;
+        max-width: 800px;
         padding: 30px;
     }
 }   
